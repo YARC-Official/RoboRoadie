@@ -7,7 +7,7 @@ module.exports = {
 
 	async execute(interaction) {
 		const openSourcebutton = new ButtonBuilder()
-			.setLabel('<:yarg:1102066840622071828> OpenSource Website')
+			.setLabel('OpenSource Website')
 			.setURL('https://opensource.yarg.in/')
 			.setStyle(ButtonStyle.Link);
 		
